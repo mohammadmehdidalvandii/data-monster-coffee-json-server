@@ -1,9 +1,27 @@
 {
+    "categorys":[
+        {
+            "id":1,
+            "category":"فوری"
+        },
+        {
+            "id":2,
+            "category":"قهوه خنک"
+        },
+        {
+            "id":3,
+            "category":"اسپرسو"
+        },
+        {
+            "id":3,
+            "category":"ترک"
+        }
+    ],
     "coffees":[
         {
             "id":1,
             "name":"دالگونا",
-            "category":"فوری",
+            "categoryId":1,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -22,7 +40,7 @@
         {
             "id":2,
             "name":"کاپوچینو",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -41,7 +59,7 @@
         {
             "id":3,
             "name":" کاپوچینو کارامل",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -60,7 +78,7 @@
         {
             "id":4,
             "name":" کاپوچینو وانیل",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -79,7 +97,7 @@
         {
             "id":5,
             "name":" کاپوچینو فندق",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -98,7 +116,7 @@
         {
             "id":6,
             "name":"دالگونا کارامل",
-            "category":"فوری",
+            "categoryId":1,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -117,7 +135,7 @@
         {
             "id":7,
             "name":"دالگونا فندق",
-            "category":"",
+            "categoryId":1,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -136,7 +154,7 @@
         {
             "id":8,
             "name":"لاته",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -155,7 +173,7 @@
         {
             "id":9,
             "name":" لاته کارامل",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -174,7 +192,7 @@
         {
             "id":10,
             "name":" لاته وانیل",
-            "category":"اسپرسو",
+           "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -193,7 +211,7 @@
         {
             "id":11,
             "name":" لاته فندق",
-            "category":"اسپرسو",
+           "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -212,7 +230,7 @@
         {
             "id":12,
             "name":" لاته کرم پسته",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -231,7 +249,7 @@
         {
             "id":12,
             "name":" لاته کرم پسته",
-            "category":"اسپرسو",
+           "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -250,7 +268,7 @@
         {
             "id":12,
             "name":" لاته کرم پسته",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -269,7 +287,7 @@
         {
             "id":13,
             "name":"ایس لاته کارمل",
-            "category":"قهوه خنک",
+            "categoryId":2,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -288,7 +306,7 @@
         {
             "id":14,
             "name":"ایس لاته وانیل",
-            "category":"قهوه خنک",
+           "categoryId":2,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -307,7 +325,7 @@
         {
             "id":15,
             "name":"ایس لاته فندق",
-            "category":"قهوه خنک",
+            "categoryId":2,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -326,7 +344,7 @@
         {
             "id":15,
             "name":"ایس لاته فندق",
-            "category":"قهوه خنک",
+            "categoryId":2,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -345,7 +363,7 @@
         {
             "id":15,
             "name":"ایس لاته پسته",
-            "category":"قهوه خنک",
+            "categoryId":2,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -364,7 +382,7 @@
         {
             "id":16,
             "name":"اسپرسو تک",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -381,9 +399,66 @@
             ]
         },
         {
+            "id":17,
+            "name":" ترک دیبک",
+            "categoryId":4,
+            "sizes":[
+                {
+                    "size":"کوچیک",
+                    "price":"90"
+                },
+                {
+                    "size":"متوسط",
+                    "price":"100"
+                },
+                {
+                    "size":"بزرگ",
+                    "price":"110"
+                }
+            ]
+        },
+        {
+            "id":18,
+            "name":"ترک آدانا",
+            "categoryId":4,
+            "sizes":[
+                {
+                    "size":"کوچیک",
+                    "price":"50"
+                },
+                {
+                    "size":"متوسط",
+                    "price":"55"
+                },
+                {
+                    "size":"بزرگ",
+                    "price":"60"
+                }
+            ]
+        },
+        {
+            "id":19,
+            "name":"ترک میرا",
+            "categoryId":3,
+            "sizes":[
+                {
+                    "size":"کوچیک",
+                    "price":"40"
+                },
+                {
+                    "size":"متوسط",
+                    "price":"45"
+                },
+                {
+                    "size":"بزرگ",
+                    "price":"50"
+                }
+            ]
+        },
+        {
             "id":16,
             "name":"اسپرسو دوبل",
-            "category":"اسپرسو",
+            "categoryId":3,
             "sizes":[
                 {
                     "size":"کوچیک",
@@ -399,5 +474,6 @@
                 }
             ]
         }
+      
     ]
 }
